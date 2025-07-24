@@ -1,122 +1,54 @@
 {
-  "evaluations": [
-    {
-      "id": "eval-001",
-      "courseId": "CRS-101",
-      "name": "Midterm Assessment",
-      "evaluationItems": [
-        { "id": "item-001", "title": "Quiz", "description": "Short multiple-choice quiz" },
-        { "id": "item-002", "title": "Project", "description": "Group-based project work" }
-      ],
-      "createdAt": "2025-07-01T10:00:00Z",
-      "createdBy": "admin@academy.com",
-      "updatedAt": "2025-07-10T14:15:00Z",
-      "updatedBy": "lecturer@academy.com"
-    },
-    {
-      "id": "eval-002",
-      "courseId": "CRS-102",
-      "name": "Final Evaluation",
-      "evaluationItems": [
-        { "id": "item-003", "title": "Written Exam", "description": "Final written exam" }
-      ],
-      "createdAt": "2025-06-15T09:30:00Z",
-      "createdBy": "admin@academy.com",
-      "updatedAt": "2025-07-01T11:00:00Z",
-      "updatedBy": "coordinator@academy.com"
-    },
-    {
-      "id": "eval-003",
-      "courseId": "CRS-103",
-      "name": "Lab Evaluation",
-      "evaluationItems": [
-        { "id": "item-004", "title": "Lab Report", "description": "Evaluation of lab activities" },
-        { "id": "item-005", "title": "Presentation", "description": "Oral presentation of lab results" }
-      ],
-      "createdAt": "2025-05-10T08:00:00Z",
-      "createdBy": "lab@academy.com",
-      "updatedAt": "2025-06-01T13:45:00Z",
-      "updatedBy": "instructor@academy.com"
-    },
-    {
-      "id": "eval-004",
-      "courseId": "CRS-104",
-      "name": "Weekly Review",
-      "evaluationItems": [],
-      "createdAt": "2025-05-12T09:00:00Z",
-      "createdBy": "ta@academy.com",
-      "updatedAt": "2025-06-02T14:30:00Z",
-      "updatedBy": "ta@academy.com"
-    },
-    {
-      "id": "eval-005",
-      "courseId": "CRS-105",
-      "name": "Quiz Session",
-      "evaluationItems": [
-        { "id": "item-006", "title": "Quiz A", "description": "Concept check quiz" }
-      ],
-      "createdAt": "2025-06-01T12:00:00Z",
-      "createdBy": "lecturer@academy.com",
-      "updatedAt": "2025-06-10T12:45:00Z",
-      "updatedBy": "lecturer@academy.com"
-    },
-    {
-      "id": "eval-006",
-      "courseId": "CRS-106",
-      "name": "Practical Assessment",
-      "evaluationItems": [
-        { "id": "item-007", "title": "Practical Task", "description": "Hands-on lab work" }
-      ],
-      "createdAt": "2025-04-15T11:00:00Z",
-      "createdBy": "admin@academy.com",
-      "updatedAt": "2025-04-20T11:30:00Z",
-      "updatedBy": "admin@academy.com"
-    },
-    {
-      "id": "eval-007",
-      "courseId": "CRS-107",
-      "name": "Course Feedback",
-      "evaluationItems": [],
-      "createdAt": "2025-05-05T08:30:00Z",
-      "createdBy": "qa@academy.com",
-      "updatedAt": "2025-05-15T10:45:00Z",
-      "updatedBy": "qa@academy.com"
-    },
-    {
-      "id": "eval-008",
-      "courseId": "CRS-108",
-      "name": "Peer Review",
-      "evaluationItems": [
-        { "id": "item-008", "title": "Group Review", "description": "Peer evaluation of team members" }
-      ],
-      "createdAt": "2025-06-10T14:00:00Z",
-      "createdBy": "facilitator@academy.com",
-      "updatedAt": "2025-06-12T15:00:00Z",
-      "updatedBy": "facilitator@academy.com"
-    },
-    {
-      "id": "eval-009",
-      "courseId": "CRS-109",
-      "name": "Seminar Evaluation",
-      "evaluationItems": [
-        { "id": "item-009", "title": "Seminar", "description": "Presentation and Q&A" }
-      ],
-      "createdAt": "2025-03-01T13:00:00Z",
-      "createdBy": "seminar@academy.com",
-      "updatedAt": "2025-03-10T14:00:00Z",
-      "updatedBy": "seminar@academy.com"
-    },
-    {
-      "id": "eval-010",
-      "courseId": "CRS-110",
-      "name": "Final Lab Check",
-      "evaluationItems": [
-        { "id": "item-010", "title": "Checklist", "description": "Final checklist before evaluation" }
-      ],
-      "createdAt": "2025-07-01T10:00:00Z",
-      "createdBy": "coordinator@academy.com",
-      "updatedAt": "2025-07-01T15:00:00Z",
-      "updatedBy": "admin@academy.com"
-    }
-  ]
+  "evaluations": {
+    "data": [
+      {
+        "id": "e1a4e6d7-52d3-4d53-80ec-b4faec128a91",
+        "courseId": "c101",
+        "name": "Midterm Evaluation",
+        "evaluationItems": [
+          {
+            "id": "item-001",
+            "title": "Clarity of Instruction",
+            "description": "How clear was the instructor in delivering the course content?"
+          },
+          {
+            "id": "item-002",
+            "title": "Engagement",
+            "description": "Did the instructor engage students during lessons?"
+          }
+        ],
+        "createdAt": "2025-07-20T10:00:00.000Z",
+        "createdBy": "admin@school.edu",
+        "updatedAt": "2025-07-22T15:30:00.000Z",
+        "updatedBy": "admin@school.edu"
+      },
+      {
+        "id": "f9f22a37-9fc3-4b4c-998f-f3ff6f4a27c9",
+        "courseId": "c102",
+        "name": "Final Project Evaluation",
+        "evaluationItems": [
+          {
+            "id": "item-003",
+            "title": "Creativity",
+            "description": "Was the final project creative and original?"
+          },
+          {
+            "id": "item-004",
+            "title": "Technical Accuracy",
+            "description": "Did the student apply correct technical knowledge?"
+          }
+        ],
+        "createdAt": "2025-07-21T12:15:00.000Z",
+        "createdBy": "instructor@school.edu",
+        "updatedAt": "2025-07-23T09:45:00.000Z",
+        "updatedBy": "instructor@school.edu"
+      }
+    ],
+    "totalCount": 2,
+    "totalPages": 1,
+    "currentPage": 1,
+    "pageSize": 10,
+    "hasNextPage": false,
+    "hasPreviousPage": false
+  }
 }
